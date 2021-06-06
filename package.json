@@ -1,0 +1,36 @@
+{
+  "name": "xx-cli-tools",
+  "version": "0.0.1",
+  "description": "fe create template cli tool",
+  "main": "index.js",
+  "bin": {
+    "xx": "index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "compressing": "^1.5.1",
+    "glob": "^7.1.7",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxlasting/xxcli.git"
+  },
+  "keywords": [
+    "cli",
+    "template"
+  ],
+  "author": "FuQiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxlasting/xxcli/issues"
+  },
+  "homepage": "https://github.com/Maxlasting/xxcli#readme"
+}
