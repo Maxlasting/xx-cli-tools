@@ -1,6 +1,6 @@
 {
   "name": "xx-cli-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fe create template cli tool",
   "main": "index.js",
   "bin": {
@@ -15,9 +15,11 @@
     "handlebars": "^4.7.7",
     "inquirer": "^8.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "cross-env NODE_ENV=development node index.js create"
   },
   "repository": {
     "type": "git",

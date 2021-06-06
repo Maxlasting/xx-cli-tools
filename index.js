@@ -5,8 +5,8 @@ const { join } = require('path')
 
 const curtPackageJson = require('./package.json')
 
-// global.baseURL = 'http://localhost:8677'
-global.baseURL = 'https://www.dabuguowoba.com/cli/'
+// global.baseURL =
+global.baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:8080/cli/' : 'https://www.dabuguowoba.com/cli/'
 
 commander.version(curtPackageJson.version, '-v, --version')
 
