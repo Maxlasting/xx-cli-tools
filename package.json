@@ -1,6 +1,6 @@
 {
   "name": "xx-cli-tools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fe create template cli tool",
   "main": "index.js",
   "bin": {
